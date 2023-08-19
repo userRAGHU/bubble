@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  font-family: "poppins",sans-serif;
+}
+#mian{
+  background: rgba(179, 231, 153, 0.912);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#panel{
+  background: rgba(245, 245, 245, 0.982);
+  width: 90%;
+  height: 90%;
+  border-radius: 8px;
+}
+#pntp{
+  width: 98%;
+  height: 10vh;
+  background: rgba(13, 34, 19, 0.792);
+  border-radius: 8px;
+  margin: 8px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#pnbt{
+  width: 98%;
+  height: calc(100% - 13vh);
+  border-radius: 8px;
+  margin: 8px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+#pnbt h1{
+  font-size: 36px;
+  color: rgba(24, 36, 18, 0.912);
+}
+
+#broad{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+}
+#broad h2{
+  margin: 0;
+  padding: 8px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.record{
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  color: rgba(4, 46, 17, 0.792);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#bubble{
+  background: rgba(46, 87, 59, 0.792);
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+}
+#bubble:hover{
+  cursor: pointer;
+  background: rgba(37, 49, 32, 0.944);
+}
